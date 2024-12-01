@@ -1,0 +1,45 @@
+body{
+  background-color:rgb(140, 114, 173);
+}
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.component {
+  margin: 20px 0;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.timer h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.image-zoom img {
+  width: 300px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.video-player video {
+  width: 600px;
+  margin-bottom: 10px;
+}
